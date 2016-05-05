@@ -1,0 +1,10 @@
+div{text-align: left;
+}
+ol {color: darkgreen;
+	font-size: 19.2px;
+	}
+a{color: darkgreen;
+	text-decoration: underline;
+	}
+a:hover {text-decoration: none;
+}	
