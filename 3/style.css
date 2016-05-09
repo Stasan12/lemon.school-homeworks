@@ -1,0 +1,86 @@
+*{padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;}
+		.wrapper{width: 1200px;
+		margin: auto;
+		border-left: 2px dotted black;
+		border-right: 2px dotted black;
+		}
+		.img { 
+			display: block;
+			width: 180px;
+			padding-left: 30px;
+			text-decoration: none;
+			text-align: center;
+			color: black;
+		}
+		.img span {
+			display: inline-block;
+			text-transform: uppercase;
+			font-size: 20px;
+			}
+		.img:hover{
+			opacity: 0.8;
+		}	
+		nav ul{ list-style: none; }
+		nav li{
+			display: inline-block;
+		}
+		.header-nav{
+			margin-top: 40px;
+			padding-left: 30px;
+			border-width: 4px 0;
+			border-color: black;
+			border-style: solid;
+		}
+		.header-nav a {
+			font-size: 20px;
+			display: inline-block;
+			color: black;
+			padding: 10px 20px;
+			text-decoration: none;
+		}
+		.header-nav a:hover{
+			background: black;
+			color: white;
+		}
+		.content {
+			padding: 30px;
+		}
+		h1, h2, p{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.content img{width: 100%;}
+		h1{
+			font-size: 40px;
+		}
+		p{
+			font-size: 22px;
+		}
+		h2{
+			font-size: 30px;
+		}
+		footer{
+			background-color: black;
+			color: white;
+			padding: 30px;
+			
+		}
+		.nav-footer {
+			text-align: center;
+			font-size: 12px;
+
+		}
+		.nav-footer a{
+			color: white;
+			text-decoration: none;
+		}
+		.nav-footer a:hover{
+			border-bottom: 1px dashed white;
+		}
+		.nav-footer li{
+			padding: 0 10px;
+		}
+
