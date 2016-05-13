@@ -1,51 +1,54 @@
-	* {
-			box-sizing: border-box;
-			padding: 0;
-			margin: 0;
-			font-size: 30px;
-			font-family: sans-serif;
-			color: white;
-		}
-		.wrapper{
-			width: 1000px;
-			margin: 0 auto;
-			background: blue;
-			overflow: hidden;
+	.wrapper{
+		width: 1200px;
+		margin: 0 auto;
 		}
 		header{
 			text-align: center;
-			background-color: red;
-			padding: 10px;
+			background: #55ff55;
 		}
-		.sidebar1{ 
+		.conteiner1{
 			float: left;
-			background: #23bb41;
-			width: 320px;
+			width: 100%;
 			text-align: center;
-			padding-bottom: 20000px;
-			margin-bottom: -20000px;
-
-			}
-		.content { 
-			/*background: #434321;*/
-			margin: 0 340px;
-			padding: 10px 20px;
-			padding-bottom: 20000px;
-			margin-bottom: -20000px;
+			background:red;
+			position: relative;
+			right: 40%;
 		}
-		.sidebar2{
-			float: right; 
-			background: #AC32ff;
-			width: 320px;
-			text-align: center;
-			padding-bottom: 20000px;
-			margin-bottom: -20000px;
+		.conteiner2{
+			float: left;
+			width: 100%;
+			background: yellow;
+			position: relative;
+			right: 30%;
 		}
-				footer{
+		.conteiner3{
+			float: left;
+			width: 100%;
+			background: #bbffaa;
+			overflow: hidden;
+			position: relative;
+		}
+		.left{float: left;
+			width: 30%;
+			position: relative;
+			left: 70%;
+		}
+		.content{
+			float: left;
+			width: 40%;
+			position: relative;
+			left: 70%;
+			
+		}
+		.right {
+			float: left;
+			width: 30%;
+			position: relative;
+			left: 70%;			
+		}
+		footer{
 			clear: both;
 			text-align: center;
-			padding: 5px;
-			background: black;
-			position: fixed;
-			width: 1000px;
+			background: #ffaa44;
+			width: 100%;
 		}
