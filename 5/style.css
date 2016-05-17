@@ -1,0 +1,77 @@
+* {	margin: 0 auto;
+	font-family: arial;
+}
+.wrapper { position: relative;
+	background-color: #ffffff;
+	width: 1300px;
+	height: 1000px;
+}
+header{ background-color: #82f2ff;
+	height: 183px;
+}
+.content { background-color: #fff;
+	height: 600px;
+	position: relative;
+}
+.sl2 { position: absolute;
+	width: 800px;
+	height: 765px;
+	left: 250px;
+	top: 112px;
+	box-shadow: 0px 0px 79px 0px rgba(0,0,0,0.72);
+	background-color: #fff;
+}
+.img-1 { position: absolute;
+	left: 50px;
+	top: 30px;
+	width: 238px;
+	height: 240px;
+}
+h1 { position: absolute;
+	top: 51px;
+	left:312px;
+	font-size: 72px;
+	width: 357px;
+	color: #4b4b4b;
+}
+h2 { position: absolute;
+	top: 230px;
+	left: 312px;
+	font-size: 32px;
+	color: #4b4b4b;
+}
+p {	position: absolute;
+	top: 290px;
+	left: 55px;
+	width: 692px;
+	font-size: 16px;
+	color: #4b4b4b;
+}
+.team { position: absolute;
+	top: 370px;
+	left: 90px;
+	font-size: 32px;
+	color: #4b4b4b;
+}
+.img-2{ position: absolute;
+	bottom: 50px;
+	left: 82px;
+	width: 217px;
+	height: 307px;
+}
+.img-3 { position: absolute;
+	width: 210px;
+	height: 302px;
+	left: 312px;
+	bottom: 50px;
+}
+.img-4{
+	position: absolute;
+	width: 210px;
+	height: 302px;
+	right: 50px;
+	bottom: 50px;
+}
+footer{	height: 217px;
+	background-color: #404040;
+}
