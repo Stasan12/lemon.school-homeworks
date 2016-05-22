@@ -1,66 +1,43 @@
-.cssmenu ul {
-   padding: 0;
-   margin: 0;
-/* убираем точки */
-   list-style: none;
-/* задаем ширину */
-   width: 150px;
-/* присвоим относительное позиционирование*/
-   position:relative;
-}
-/* зададим стиль для элементов списка */
-/* Чтобы меню корректно отображалось в IE */
-.cssmenu li {
-     float: left;
-}
-/* зададим стиль для анкора в списке */
-.cssmenu li a, .cssmenu li a:visited {
-/* обязательно блочное отображение */
-   display: block;
-/* ширина строки на 1 пиксель меньше */
-   width: 149px;
-/* зададим высоту строки */
-   height:25px;
-   line-height:25px;
-/* сделаем отступ в 5 пикселей */   
-   text-indent:5px;
-/* сделаем рамку в 1 пиксель */
-   border: 1px solid #ffffff;
+.left-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 228px;
+    border-bottom: 1px solid #ddd;
 
-/* уберем одну горизонтальную рамку, чтобы не удваивались */
-   border-width:0 1px 1px 1px;
-/* цвета фона и текста */
-   color: #FAFAD2;
-   background-color: #4682B4;
+
 }
-/* меняем цвета при наведении */
-.cssmenu li a:hover {
-   color: #4682B4;
-   background-color: #FAFAD2;
+.left-menu ul li {
+    position: relative;
+
 }
-/* скрываем вложенные пункты меню */
-.cssmenu li ul {
-   visibility: hidden;
-   position: absolute;
-  	left: 149px;
-   top: 0px;
+.left-menu li ul {
+    position: absolute;
+    left: 227px;
+    top: 0;
+    display: none;
 }
-.cssmenu li:hover {
-   position: relative;
+.left-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #360036;
+    background: #fff;
+    padding:5px 5px 5px 15px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
 }
-.cssmenu li:hover > ul {
-   visibility: visible;
+.left-menu ul li a:hover {
+    background: #ddd;
 }
-/* выделяем родительские пункты, при наведении на дочерние */
-.cssmenu li:hover > a {
-   color:#4682B4;
-   background:#FAFAD2;
+.left-menu li:hover ul, li.hover ul { 
+    display: block; 
 }
-.cssmenu table {
-   position:absolute;
-   border-collapse:collapse;
-   top:0;
-   left:0;
-   z-index:100;
-   font-size:1em;
-}
+* html ul li { 
+  float: left;
+ height: 1%;
+
+  }
+* html ul li a {
+ height: 1%;
+  }
+
