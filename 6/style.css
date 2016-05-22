@@ -1,0 +1,66 @@
+.cssmenu ul {
+   padding: 0;
+   margin: 0;
+/* убираем точки */
+   list-style: none;
+/* задаем ширину */
+   width: 150px;
+/* присвоим относительное позиционирование*/
+   position:relative;
+}
+/* зададим стиль для элементов списка */
+/* Чтобы меню корректно отображалось в IE */
+.cssmenu li {
+     float: left;
+}
+/* зададим стиль для анкора в списке */
+.cssmenu li a, .cssmenu li a:visited {
+/* обязательно блочное отображение */
+   display: block;
+/* ширина строки на 1 пиксель меньше */
+   width: 149px;
+/* зададим высоту строки */
+   height:25px;
+   line-height:25px;
+/* сделаем отступ в 5 пикселей */   
+   text-indent:5px;
+/* сделаем рамку в 1 пиксель */
+   border: 1px solid #ffffff;
+
+/* уберем одну горизонтальную рамку, чтобы не удваивались */
+   border-width:0 1px 1px 1px;
+/* цвета фона и текста */
+   color: #FAFAD2;
+   background-color: #4682B4;
+}
+/* меняем цвета при наведении */
+.cssmenu li a:hover {
+   color: #4682B4;
+   background-color: #FAFAD2;
+}
+/* скрываем вложенные пункты меню */
+.cssmenu li ul {
+   visibility: hidden;
+   position: absolute;
+  	left: 149px;
+   top: 0px;
+}
+.cssmenu li:hover {
+   position: relative;
+}
+.cssmenu li:hover > ul {
+   visibility: visible;
+}
+/* выделяем родительские пункты, при наведении на дочерние */
+.cssmenu li:hover > a {
+   color:#4682B4;
+   background:#FAFAD2;
+}
+.cssmenu table {
+   position:absolute;
+   border-collapse:collapse;
+   top:0;
+   left:0;
+   z-index:100;
+   font-size:1em;
+}
