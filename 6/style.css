@@ -32,12 +32,4 @@
 .left-menu li:hover ul, li.hover ul { 
     display: block; 
 }
-* html ul li { 
-  float: left;
- height: 1%;
-
-  }
-* html ul li a {
- height: 1%;
-  }
 
