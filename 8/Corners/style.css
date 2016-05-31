@@ -1,0 +1,47 @@
+@import url(\reset.css);
+.wrapper{
+	width: 400px;
+	height: 80px;
+	background-color: #008000;
+	margin-left: 40px;
+	margin-top: 40px;
+	position: relative;
+}
+.content{
+	text-align:left;
+	color: #FFFFFF;
+	padding-left: 30px;
+	padding-top: 35px;
+}
+.top-left{
+	width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+}
+.top-right{
+	width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.botton-left{
+	width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  
+}
+.botton-right{
+	width: 3px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
