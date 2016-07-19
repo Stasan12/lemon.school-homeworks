@@ -20,10 +20,10 @@
 .top {
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 69px;
+	margin-bottom: 63px;
 }
 .top-left{
-	margin-top: 63px;
+	margin-top: 62px;
 	float: left;
 }
 .top-left_logo{
@@ -38,7 +38,7 @@
 	width: 475px;
 	float: right;
 	text-align: right;
-	margin-top: 70px;
+	margin-top: 64px;
 }
 .right-nav{
 	display: inline-block;
@@ -63,7 +63,7 @@
 	@include montserrat-light(18px);
 	line-height: 24px;
 	color: #989898;
-	margin-left: 29px;
+	margin-left: 25px;
 }
 .right-nav_link:hover{
 	opacity: 0.5;
@@ -72,7 +72,7 @@
 	width: 100%;
 	display: inline-block;
 	background-image: url("../images/slider_bg.jpg");
-	background-position: 50% 50%;
+	background-position: 50% 51%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-blend-mode: overlay;
@@ -83,8 +83,8 @@
 .slider-text{
 	display: block;
 	text-align: center;
-	margin-top: 150px;
-	@include montserrat-bold(36px);
+	margin-top: 143px;
+	@include montserrat-bold(48px);
 	line-height: 24px; 
 	position: relative;
 	margin-bottom: 0;
@@ -92,10 +92,10 @@
 		content: '';
 		display: block;
 		background-color: #000;
-		width: 55px;
-		height: 1px;
+		width: 56px;
+		height: 2px;
 		position: relative;
-		margin-top: 30px;
+		margin-top: 37px;
 		left: 547.5px;
 	}
 }
@@ -107,7 +107,7 @@
 	line-height: 32px;
 }
 .slider-text_top{
-	margin: 25px auto 9px;
+	margin: 18px auto -1px;
 }
 .slider-text_discr{
 	margin: 0 auto;
@@ -115,7 +115,7 @@
 .slider-button{
 	display: block;
 	position: relative;
-	margin: 80px auto 108px;
+	margin: 70px auto 108px;
 	text-align: center;
 	width: 170px;
 	height: 50px;
@@ -124,13 +124,19 @@
 	color: #fff;
 	outline: none;
 	cursor: pointer;
+	border: none;
+	padding-right: 4px;
+	padding-bottom: 5px;
 	@include montserrat-light(18px);
 	line-height: 24px;
+	&:active{
+	box-shadow: inset 0 0 45px 0 rgb(255,255,255);
+	}
 }
 .slider-dots{
 	display: inline-block;
 	position: absolute;
-	left: 1108px;
+	left: 1107px;
 	top: 50%;
 	width: 13px;
 	height: 73px;
@@ -152,19 +158,21 @@
 	display: inline-block;
 	width: 100%;
 	background-color: inherit;
-	padding-top: 87px;
+	padding-top: 95px;
 }
 .services-title{
 	display: block;
 	text-align: center;
 	@include montserrat-hairline(60px);
-	line-height: 48px;
+	line-height: 47px;
 	opacity: 0.7;
 	margin-bottom: 100px;
+	margin-left: -6px;
 }
 .creative-kitchen{
 	display: inline-block;
 	margin-bottom: 100px;
+	margin-left: -4px;
 }
 .kitchen-img{
 	display: block;
@@ -182,13 +190,13 @@
 		position: absolute;
 		z-index: 1;
 		top: 0;
-		opacity: 0.2;
+		opacity: 0.001;
 	}
 }
 .kitchen-text{
 	display: inline-block;
 	width: 478px;
-	margin-left: 98px;
+	margin-left: 96px;
 	text-align: left;
 }
 .kitchen-text span{
@@ -204,7 +212,7 @@
 	@include montserrat-bold(48px);
 	line-height: 48px;
 	position: relative;
-	top: 8px;
+	top: 5px;
 	&:after{
 		content:'';
 		display:block;
@@ -212,7 +220,8 @@
 		height: 2px;
 		width: 55px;
 		background-color: #000;
-		top: 22px;
+		top: 25px;
+		left: 2px;
 	}
 }
 .kitchen-text h2+p{
@@ -221,8 +230,9 @@
 	line-height: 27px;
 	color: #656565;
 	position: relative;
-	top: 29px;
+	top: 33px;
 	margin-bottom: 0;
+	left: 2px;
 }
 .kitchen-text p+p{
 	display: inline-block;
@@ -232,6 +242,7 @@
 	position: relative;
 	margin-top: 60px;
 	margin-bottom: 0;
+	left: 2px;
 }
 .kitchen-button{
 	display: block;
@@ -247,7 +258,9 @@
 	@include montserrat-light(18px);
 	line-height: 24px;
 	border: 1px solid #d8d8d8;
-	margin-top: 49px;
+	margin-top: 43px;
+    padding: 0 0 2px 2px;
+
 	&:active{
 		box-shadow: 0 0 35px 0 rgba(0,0,0, 0.5) inset;
 	}
@@ -506,4 +519,19 @@
 	line-height: 48px;
 	opacity: 0.7;
 	margin-bottom: 100px;
+}
+.slide_img{
+	border-radius: 50%;
+}
+.slide_img {
+	display: inline-block;
+
+}
+.slide_title{
+	display: inline-block;
+	position: relative;
+}
+.slide_discription{
+	display: inline-block;
+	position: relative;
 }

@@ -1,0 +1,30 @@
+#carousel__first-page .slick-dots {
+ width: 100%;
+ bottom: 43px;
+    right: 0;
+}
+#carousel__first-page .slick-dots li {
+ position: relative;
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ margin: 0 4px;
+ padding: 0;
+ cursor: pointer;
+}
+#carousel__first-page .slick-dots li button::before {
+ content: '';
+ opacity: .3;
+ width: 16px;
+ height: 16px;
+ border: 3px solid #fff;
+ border-radius: 50%;
+}
+#carousel__first-page .slick-dots li.slick-active button:before {
+ opacity: 1;
+ color: #fff;
+}
+#carousel__first-page .slick-dots li button:hover::before {
+ opacity: 1;
+ color: #fff;
+}
